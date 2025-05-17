@@ -1,0 +1,258 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff758c;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+h2 {
+    text-align: center;
+    color: #4a4a4a;
+}
+
+/* Form Elements */
+label, input, button {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
+
+input, select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: linear-gradient(to right, #e7537b, #e7669c);
+}
+
+.previous-button {
+    background: linear-gradient(to right, #fce3ec, #ff7eb3);
+    margin-right: 15px;
+}
+
+/* Semester Divs */
+.semester {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: linear-gradient(to right, #fce3ec, #ffffff);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.semester h3 {
+    margin: 0 0 10px;
+    color: #555;
+}
+/* Semester Subjects Styles */
+.semester {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: linear-gradient(to right, #fce3ec, #ffffff);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.semester h3 {
+    margin: 0 0 10px;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.semester ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0 15px;
+}
+
+.semester ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+/* Styles for the subjects in the same row */
+.semester-subjects {
+    display: flex;
+    flex-direction: column;
+}
+
+.subject-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.subject-row label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.subject-row input {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%; /* Control the width of input fields */
+}
+
+/* Adjust the layout for smaller screens */
+@media (max-width: 768px) {
+    .subject-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .subject-row label, .subject-row input {
+        width: 100%;
+    }
+}
+/* Preferences Area Styling */
+.preferences-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.preference-card {
+    width: calc(50% - 20px); /* 2 cards per row */
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.preference-card h4 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+}
+
+.preference-card select,
+.preference-card input[type="text"],
+.preference-card input[type="checkbox"] {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* For Checkboxes in Study Hours */
+.checkbox-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-list label {
+    margin-bottom: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .preference-card {
+        width: 100%; /* Full width for smaller screens */
+    }
+}
+div{
+    margin-top: 10px;
+}
+/* Header Styles */
+.header {
+    text-align: center;
+    margin-top: 80px; /* Increased margin for better space around title */
+}
+
+.header h1 {
+    font-size: 70px; /* Larger font size for emphasis */
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background: linear-gradient(to right, #d5006b, #ff4081); /* Dark pink to a lighter pink gradient */
+    -webkit-background-clip: text; /* Clips the background gradient to the text */
+    color: transparent; /* Makes text color transparent, so background is visible */
+    text-shadow: 
+        2px 2px 5px rgba(255, 255, 255, 0.6), /* White shadow for outline effect */
+        -2px -2px 5px rgba(0, 0, 0, 0.5), /* Black shadow for margin effect */
+        0 0 25px rgba(255, 105, 180, 0.6), /* Glowing pink effect */
+        0 0 30px #d5006b; /* Glowing dark pink effect */
+    margin-top: 100px; /* Extra margin at the top */
+    margin-bottom: 40px; /* Bottom margin for spacing */
+    padding: 10px; /* Padding around the title for better visual impact */
+    text-align: center; /* Ensure title is centered */
+    
+    /* Bouncing Effect */
+    animation: bounce 2s infinite; /* Bouncing animation applied */
+}
+
+/* Bouncing Animation */
+@keyframes bounce {
+    0% {
+        transform: translateY(0); /* Starting position */
+    }
+    25% {
+        transform: translateY(-10px); /* Moves up a bit */
+    }
+    50% {
+        transform: translateY(0); /* Returns to original position */
+    }
+    75% {
+        transform: translateY(-5px); /* Slightly up */
+    }
+    100% {
+        transform: translateY(0); /* Back to starting position */
+    }
+}
+

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyBuddy - Student Registration</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    
+</head>
+<body>
+    <div class="header">
+        <h1>STUDYBUDDY</h1>
+    </div>
+
+    <div class="sub-header">
+        <h2>Find Your Perfect Study Partner</h2>
+    </div>
+<div class="form-container">
+        <!-- First Page - Login Details -->
+        <div id="page1">
+            <h2>Enter Your Login Details</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <button type="button" class="next-button" onclick="nextPage(2)">Next</button>
+            </form>
+            <hr>
+
+        </div>
+        <!-- Second Page - Semester Details -->
+        <div id="page2" style="display:none;">
+            <h2>Enter Your Semester Details</h2>
+            <form id="semester-form">
+                <div id="semesters-container">
+                    <!-- Semester Subjects will be dynamically generated here -->
+                </div>
+                
+                <button type="button" class="previous-button" onclick="previousPage(1)">Previous</button>
+                <button type="button" class="next-button" onclick="nextPage(3)">Next</button>
+            </form>
+        </div>
+
+        <!-- Third Page - Weakest & Easiest Subjects, Learning Preferences -->
+        <div id="page3" style="display:none;">
+            <h2>Enter Your Weakest & Easiest Subjects and Preferences</h2>
+            <form id="preferences-form">
+                <label for="weakest-subject">Weakest Subject(s) (comma-separated):</label>
+                <input type="text" id="weakest-subject" name="weakestSubjects" placeholder="e.g., Mathematics, Data Structures" required><br><br>
+
+                <label for="easiest-subject">Easiest Subject(s) (comma-separated):</label>
+                <input type="text" id="easiest-subject" name="easiestSubjects" placeholder="e.g., Programming, Algorithms" required><br><br>
+
+                <label for="learning-style">Preferred Learning Style:</label>
+                <select id="learning-style" name="learningStyle" required>
+                    <option value="Visual">Visual</option>
+                    <option value="Auditory">Auditory</option>
+                    <option value="Kinesthetic">Kinesthetic</option>
+                    <option value="Reading/Writing">Reading/Writing</option>
+                </select><br><br>
+
+                <label for="study-goal">Primary Study Goal:</label>
+                <select id="study-goal" name="studyGoal" required>
+                    <option value="Grade Improvement">Grade Improvement</option>
+                    <option value="Understanding Concepts">Understanding Concepts</option>
+                    <option value="Exam Preparation">Exam Preparation</option>
+                    <option value="Project/Assignment Help">Project/Assignment Help</option>
+                    <option value="Skill Development">Skill Development</option>
+                </select><br><br>
+
+                <label for="schedule">Available Study Hours (choose all that apply):</label><br>
+                <input type="checkbox" id="monday" name="schedule" value="Monday"> Monday<br>
+                <input type="checkbox" id="tuesday" name="schedule" value="Tuesday"> Tuesday<br>
+                <input type="checkbox" id="wednesday" name="schedule" value="Wednesday"> Wednesday<br>
+                <input type="checkbox" id="thursday" name="schedule" value="Thursday"> Thursday<br>
+                <input type="checkbox" id="friday" name="schedule" value="Friday"> Friday<br>
+                <input type="checkbox" id="saturday" name="schedule" value="Saturday"> Saturday<br>
+                <input type="checkbox" id="sunday" name="schedule" value="Sunday"> Sunday<br><br>
+
+                <label for="personality">Personality Type:</label>
+                <select id="personality" name="personality" required>
+                    <option value="Introvert">Introvert</option>
+                    <option value="Extrovert">Extrovert</option>
+                    <option value="Ambivert">Ambivert</option>
+                </select><br><br>
+
+                <label for="language">Primary Language:</label>
+                <input type="text" id="language" name="language" placeholder="e.g., English, Hindi" required><br><br>
+
+                <label for="collaboration-tools">Preferred Collaboration Tools:</label>
+                <select id="collaboration-tools" name="collaborationTools" required>
+                    <option value="Google Docs">Google Docs</option>
+                    <option value="Zoom">Zoom</option>
+                    <option value="Notion">Notion</option>
+                    <option value="Paper-based">Paper-based</option>
+                </select><br><br>
+
+                <label for="study-environment">Preferred Study Environment:</label>
+                <select id="study-environment" name="studyEnvironment" required>
+                    <option value="Quiet">Quiet</option>
+                    <option value="Group Study">Group Study</option>
+                    <option value="Online Study">Online Study</option>
+                </select><br><br>
+
+                <label for="geographical-proximity">Geographical Proximity (optional):</label>
+                <input type="text" id="geographical-proximity" name="geographicalProximity" placeholder="e.g., Local, International"><br><br>
+
+                <label for="communication-style">Communication Style:</label>
+                <select id="communication-style" name="communicationStyle" required>
+                    <option value="Direct">Direct</option>
+                    <option value="Casual">Casual</option>
+                    <option value="Formal">Formal</option>
+                </select><br><br>
+
+                <label for="motivation-level">Motivational Level:</label>
+                <input type="text" id="motivation-level" name="motivationLevel" placeholder="e.g., High, Moderate, Low" required><br><br>
+
+                <label for="study-time">Preferred Study Time:</label>
+                <select id="study-time" name="studyTime" required>
+                    <option value="Morning">Morning</option>
+                    <option value="Afternoon">Afternoon</option>
+                    <option value="Evening">Evening</option>
+                    <option value="Night">Night</option>
+                </select><br><br>
+
+                <button type="button" class="previous-button" onclick="previousPage(2)">Previous</button>
+                <button type="button" class="next-button" onclick="nextPage(4)">Next</button>
+            </form>
+        </div>
+
+
+        <!-- Matching Page with Chat Feature -->
+        <div id="page4" style="display:none;">
+            <h2>Matching Results</h2>
+            <button id="submit-btn">Submit</button>
+            <button onclick="findMatches()">Find My Study Partner</button>
+             <!-- Loading Spinner (initially hidden) -->
+    <div id="loading-spinner" class="spinner" style="display: none;"></div>
+    
+            <div id="matchedResults" class="results">
+                <!-- Matched partners with chat buttons will be shown here -->
+            </div>
+        </div>
+    </div>
+    
+<script src="{% static 'script.js' %}"></script>
+</body>
+</html>

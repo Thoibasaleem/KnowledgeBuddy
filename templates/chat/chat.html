@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - StudyBuddy</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'chat.css' %}">
+</head>
+<body>
+    <div class="chat-container"> <!-- ✅ Wrap everything properly -->
+        <div class="chat-header">
+            <span id="chatTitle">Chat with {{ student_name }}</span>
+            <button class="close-btn" onclick="closeChat()">✖</button>
+        </div>    
+
+        <div id="chatMessages" class="chat-messages">
+            {% for message in messages %}
+                <div class="message {% if message.sender == student_name %}received{% else %}sent{% endif %}">
+                    <!-- ✅ Show message content -->
+                    {% if message.file_url %}
+                        {% if "image" in message.file_type %}
+                            <img src="{{ message.file_url }}" alt="Uploaded image" style="max-width: 200px; border-radius: 8px;">
+                        {% elif "pdf" in message.file_type %}
+                            <a href="{{ message.file_url }}" target="_blank" download>📎 View PDF</a>
+                        {% else %}
+                            <a href="{{ message.file_url }}" target="_blank" download>📎 Download File</a>
+                        {% endif %}
+                    {% else %}
+                        {{ message.message }}
+                    {% endif %}
+                    
+                    <!-- ✅ Show timestamp -->
+                    <span class="timestamp">{{ message.timestamp|date:"h:i A" }}</span>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="chat-input">
+            <!-- ✅ Fixed id and added name attribute -->
+            <input type="text" id="chatInput" name="message" placeholder="Type a message..." />
+            <button onclick="sendMessage()">➤</button>
+
+            <!-- ✅ Upload Button -->
+            <input type="file" id="fileInput" style="display: none;" onchange="uploadFile(event)" accept="image/*,application/pdf,audio/*,video/*">
+            <button onclick="document.getElementById('fileInput').click()">📎</button>
+
+            <!-- ✅ File info preview -->
+            <div id="fileInfo"></div>
+
+            <!-- Existing chat HTML -->
+
+<!-- Voice Recording Button -->
+<button id="recordVoiceBtn" onclick="recordVoice()">Record Voice</button>
+
+        </div>
+        
+<style>
+    .genz-rec-btn {
+        padding: 12px 25px;
+        font-size: 18px;
+        font-weight: bold;
+        background: linear-gradient(135deg, #ff758c, #ff7eb3);
+        border: none;
+        border-radius: 50px;
+        color: white;
+        box-shadow: 0 8px 20px rgba(255, 105, 180, 0.4);
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        animation: pulse 1.5s infinite;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .genz-rec-btn:hover {
+        background: linear-gradient(135deg, #ff6a85, #ff66a0);
+        transform: scale(1.05);
+        box-shadow: 0 12px 25px rgba(255, 105, 180, 0.6);
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+            box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+        }
+        50% {
+            transform: scale(1.03);
+            box-shadow: 0 0 25px rgba(255, 105, 180, 0.5);
+        }
+        100% {
+            transform: scale(1);
+            box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+        }
+    }
+</style>
+
+<!-- ✨ Actual Button -->
+<button class="genz-rec-btn" onclick="goToRecommendations()">✨ Get Study Recommendations ✨</button>
+
+
+    <script src="{% static 'script.js' %}" defer></script>
+</body>
+</html>

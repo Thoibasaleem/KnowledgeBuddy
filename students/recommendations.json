@@ -1,0 +1,227 @@
+[
+  {
+    "topic": "linear algebra and calculus",
+    "tips": "Focus on vector spaces, eigenvalues, and determinants in Linear Algebra. For Calculus, master differentiation, integration, and applications in real-world problems.",
+    "youtube": "https://youtube.com/playlist?list=PL7lBkW4pLsIK-G03ZOcyJ34cMKc5iQ4QA&si=1eZMFqIjoNqC0X-C"
+  },
+  {
+    "topic": "engineering graphics",
+    "tips": "Practice orthographic projections, isometric views, and sectional views. Get comfortable with CAD software like AutoCAD or SolidWorks",
+    "youtube": "https://youtube.com/playlist?list=PLbQL6jsbZ8PMYE0mKsZB-ayMVQ6K6o2MJ&si=9lb9p_qc8KN6pTLb"
+  },
+  {
+    "topic": "engineering chemistry",
+    "tips": "Understand polymers, corrosion prevention, water treatment, and electrochemistry. Solve previous year question papers to grasp key concepts",
+    "youtube": "https://youtube.com/playlist?list=PLLQAWQRZZ8UnuKwiiFPAqZFyiTqwEv4-5&si=MFGcp0VD_7xtFsUn"
+  },
+  {
+    "topic": "basics of civil and mechanical",
+    "tips": "For Civil, focus on construction materials, structural analysis, and surveying basics. For Mechanical, grasp thermodynamics, fluid mechanics, and manufacturing processes",
+    "youtube": "https://youtube.com/playlist?list=PLqvQxztET46Hh85303fQjOAO3YAX1HoYC&si=8B2PWGZx6fvYMqDP"
+  },
+  {
+    "topic": "Formal languages and Automata Theory",
+    "tips": "Focus on finite automata, grammars, pushdown automata, and Turing machines. Use JFLAP for visualization and practice problems regularly.",
+    "youtube": "https://youtube.com/playlist?list=PLv-1irVkw_hTCF4OnjtzUEiwid1iYxsGs&si=77lpVkybIKGR7G1G"
+    },
+    {
+    "topic": "Computer Networks",
+    "tips":  "Master OSI & TCP/IP models, subnetting, routing, and protocols like HTTP, TCP, and UDP. Use network simulators like Cisco Packet Tracer for practice.",
+    "youtube": "https://youtube.com/playlist?list=PLI74-7rtCb9BRUw6JzCm_wwLdQJc3jSwO&si=cKmBrZ5nZWKvn8Ls"
+    },
+    {
+    "topic": "Database Management Systems",
+    "tips": "Focus on SQL, normalization, indexing, and transactions. Practice queries on MySQL or PostgreSQL and understand ER diagrams and ACID properties.",
+    "youtube": "https://www.youtube.com/playlist?list=PLLOxZwkBK52BQwPZOU3bZ1zFg0Wy_1itG"
+    },
+    {
+    "topic": "System Software",
+    "tips": "Learn assemblers, linkers, loaders, and compilers. Focus on OS interaction, memory management, and process scheduling concepts."  ,
+    "youtube": "https://youtube.com/playlist?list=PLv-1irVkw_hTDl_KBHhAoHvPYYGPrrlxg&si=Olh2d-7Ga5KLjqSU"
+    },
+    {
+      "topic": "Microprocessors and Microcontrollers",
+      "tips": "Understand automata, regular expressions, Turing machines, and complexity classes. Create mind maps.",
+      "youtube": "https://youtube.com/playlist?list=PLv-1irVkw_hRGYDo7vZfWHJKMpQDJ9X5E&si=wtf8UdSe8ePeURTR"
+    },
+    {
+      "topic": "Management of System Software",
+     "tips": "Understand architecture, instruction sets, and interfacing. Focus on 8085, 8051, and ARM basics. Practice assembly language programming.",  
+      "youtube": "https://youtube.com/playlist?list=PLv-1irVkw_hSFkiGGqbeArmkMNAl4detq&si=7HQm1PaPxeTTlsFi"
+    },
+   {
+      "topic": "Disaster Management",
+       "tips": "Learn disaster types, risk assessment, mitigation strategies, and recovery plans. Focus on early warning systems and emergency response." ,
+      "youtube": "https://youtube.com/playlist?list=PLvhpYlsgi9lA62XcNQuHoi1urRhRlyIJg&si=1cXuVOodRmUk33D7"
+    },
+   {
+    "topic": "linear algebra and calculus",
+    "tips": "Focus on vector spaces, eigenvalues, and determinants in Linear Algebra. For Calculus, master differentiation, integration, and applications in real-world problems.",
+    "youtube": "https://youtube.com/playlist?list=PL7lBkW4pLsIK-G03ZOcyJ34cMKc5iQ4QA&si=1eZMFqIjoNqC0X-C"
+   },
+   {
+    "topic": "engineering graphics",
+    "tips": "Practice orthographic projections, isometric views, and sectional views. Get comfortable with CAD software like AutoCAD or SolidWorks",
+    "youtube": "https://youtube.com/playlist?list=PLbQL6jsbZ8PMYE0mKsZB-ayMVQ6K6o2MJ&si=9lb9p_qc8KN6pTLb"
+   },
+   {
+    "topic": "engineering chemistry",
+    "tips": "Understand polymers, corrosion prevention, water treatment, and electrochemistry. Solve previous year question papers to grasp key concepts",
+    "youtube": "https://youtube.com/playlist?list=PLLQAWQRZZ8UnuKwiiFPAqZFyiTqwEv4-5&si=MFGcp0VD_7xtFsUn"
+   },
+   {
+    "topic": "basics of civil and mechanical",
+    "tips": "For Civil, focus on construction materials, structural analysis, and surveying basics. For Mechanical, grasp thermodynamics, fluid mechanics, and manufacturing processes",
+    "youtube": "https://youtube.com/playlist?list=PLqvQxztET46Hh85303fQjOAO3YAX1HoYC&si=8B2PWGZx6fvYMqDP"
+   },
+   {
+    "topic": "Formal languages and Automata Theory",
+    "tips": "Focus on finite automata, grammars, pushdown automata, and Turing machines. Use JFLAP for visualization and practice problems regularly.",
+    "youtube": "https://youtube.com/playlist?list=PLv-1irVkw_hTCF4OnjtzUEiwid1iYxsGs&si=77lpVkybIKGR7G1G"
+   },
+    {
+    "topic": "Computer Networks",
+    "tips":  "Master OSI & TCP/IP models, subnetting, routing, and protocols like HTTP, TCP, and UDP. Use network simulators like Cisco Packet Tracer for practice.",
+    "youtube": "https://youtube.com/playlist?list=PLI74-7rtCb9BRUw6JzCm_wwLdQJc3jSwO&si=cKmBrZ5nZWKvn8Ls"
+    },
+    {
+    "topic": "Database Management Systems",
+    "tips": "Focus on SQL, normalization, indexing, and transactions. Practice queries on MySQL or PostgreSQL and understand ER diagrams and ACID properties.",
+    "youtube": "https://www.youtube.com/playlist?list=PLLOxZwkBK52BQwPZOU3bZ1zFg0Wy_1itG"
+    },
+    {
+    "topic": "System Software",
+    "tips": "Learn assemblers, linkers, loaders, and compilers. Focus on OS interaction, memory management, and process scheduling concepts."  ,
+    "youtube": "https://youtube.com/playlist?list=PLv-1irVkw_hTDl_KBHhAoHvPYYGPrrlxg&si=Olh2d-7Ga5KLjqSU"
+    },
+    {
+      "topic": "Microprocessors and Microcontrollers",
+      "tips": "Understand automata, regular expressions, Turing machines, and complexity classes. Create mind maps.",
+      "youtube": "https://youtube.com/playlist?list=PLv-1irVkw_hRGYDo7vZfWHJKMpQDJ9X5E&si=wtf8UdSe8ePeURTR"
+    },
+    {
+      "topic": "Management of System Software",
+     "tips": "Understand architecture, instruction sets, and interfacing. Focus on 8085, 8051, and ARM basics. Practice assembly language programming.",  
+      "youtube": "https://youtube.com/playlist?list=PLv-1irVkw_hSFkiGGqbeArmkMNAl4detq&si=7HQm1PaPxeTTlsFi"
+    },
+   {
+      "topic": "Disaster Management",
+       "tips": "Learn disaster types, risk assessment, mitigation strategies, and recovery plans. Focus on early warning systems and emergency response." ,
+      "youtube": "https://youtube.com/playlist?list=PLvhpYlsgi9lA62XcNQuHoi1urRhRlyIJg&si=1cXuVOodRmUk33D7"
+    },
+  {
+      "topic": "Vector Calculus",
+      "tips": "Understand gradient, divergence, curl, and line/surface integrals. Practice problems on Green’s, Gauss’s, and Stokes’ theorems.",
+      "youtube": "https://youtube.com/playlist?list=PL7lBkW4pLsIJYAjp-I4n8EYrvDVQnz2UE&si=hMgrISWH3LTdi4x7"
+    },
+    {
+      "topic": "Engineering Physics",
+      "tips": "Focus on wave optics, quantum mechanics, lasers, and superconductivity. Solve numerical problems regularly.",
+      "youtube": "https://youtube.com/playlist?list=PLXGVrbWTYFQIyeLs2wQLMV3fEXUfH5hxJ&si=M5zCA3a31pEoTtyK"
+    },
+    {
+      "topic": "Engineering Mechanics",
+      "tips": "Master free body diagrams, equilibrium, trusses, friction, and moment of inertia concepts.",
+      "youtube": "https://youtube.com/playlist?list=PLXGVrbWTYFQJgJzUuk0F6778h1EWMJHja&si=jswf7HitM9lQJFfj"
+    },
+    {
+      "topic": "Basic Electrical and Electronics",
+      "tips": "Revise Ohm's law, Kirchhoff’s laws, AC/DC circuits, diodes, and transistors. Practice circuit problems.",
+      "youtube": "https://youtube.com/playlist?list=PLpOlX5FjW5ZBbHRZ38xYb7TZPSQFwztDr&si=E71kT_2YUMaOQfXy"
+    },
+    {
+      "topic": "Programming in C",
+      "tips": "Focus on syntax, loops, functions, arrays, pointers, and file handling. Write and debug your own code.",
+      "youtube": "https://youtube.com/playlist?list=PLEZJP6NMk1VS7sCwKC4gwqjE3wEikbLgy&si=EdF-nn7uRmG16067"
+    },
+    {
+      "topic": "Discrete Mathematical Structures",
+      "tips": "Learn set theory, logic, relations, functions, graphs, and combinatorics. Practice proofs and theorems.",
+      "youtube": "https://youtube.com/playlist?list=PLv-1irVkw_hTglW2TS4ujtesfWO25IYu7&si=OhyRX0E7SKtwff-I"
+    },
+    {
+      "topic": "Data Structures",
+      "tips": "Master arrays, linked lists, stacks, queues, trees, and graphs. Understand complexity and recursion.",
+      "youtube": "https://youtube.com/playlist?list=PLI74-7rtCb9BJ7PxVFhow06zbxgfbwo3E&si=OKspxlEc_1ADRNQ7"
+    },
+    {
+      "topic": "Logic System and Design",
+      "tips": "Study Boolean algebra, logic gates, flip-flops, and combinational/sequential circuits.",
+      "youtube": "https://youtube.com/playlist?list=PLpOlX5FjW5ZDBZXayOOwVUaGGusfhVlfh&si=e0TTA0rRifVVFdn4"
+    },
+    {
+      "topic": "Object Oriented Programming",
+      "tips": "Grasp classes, objects, inheritance, polymorphism, and encapsulation. Build real-world programs.",
+      "youtube": "https://youtube.com/playlist?list=PLI74-7rtCb9DskNUdNn2oTM0MAlcuqd4t&si=uwEClIA4rEsxhdT9"
+    },
+    {
+      "topic": "Professional Ethics",
+      "tips": "Understand ethical theories, engineering ethics, codes of conduct, and case studies.",
+      "youtube": "https://youtube.com/playlist?list=PLU9qGTRXUDkk1x5wr5xzrektOW28bE7kU&si=_qg072jMCK-9E7wj"
+    },
+    {
+      "topic": "Design and Engineering",
+      "tips": "Learn the design process, project planning, and evaluation techniques. Focus on creative thinking.",
+      "youtube": "https://youtube.com/playlist?list=PL5GLDcBhbkC_Nl4L86BWigB9VAprHroTP&si=r4uaxo_K2aWw2G2I"
+    },
+    {
+      "topic": "Sustainable Engineering",
+      "tips": "Focus on renewable energy, environmental impact, life cycle analysis, and green technologies.",
+      "youtube": "https://youtube.com/playlist?list=PLtOQtzMM0hnBdhqHGPE3gjA2HVceKGlkC&si=aWbtE8d7PMm-YG0X"
+    },
+    {
+      "topic": "Graph Theory",
+      "tips": "Study trees, connectivity, Eulerian and Hamiltonian paths, and graph coloring.",
+      "youtube": "https://youtube.com/playlist?list=PLv-1irVkw_hSZ2FcsAxgvli0xcIhrpANm&si=ChCSv3lwm0nVWMQy"
+    },
+    {
+      "topic": "Computer Organisation and Architecture",
+      "tips": "Learn CPU organization, memory hierarchy, instruction cycles, and pipelining.",
+      "youtube": "https://youtube.com/playlist?list=PLpOlX5FjW5ZCoHzS_O8JPCO_d_b2pjHKe&si=rehcvZpoDCXwStN6"
+    },
+    {
+      "topic": "Database Management System",
+      "tips": "Understand ER models, normalization, SQL, indexing, and transactions.",
+      "youtube": "https://youtube.com/playlist?list=PLI74-7rtCb9CPIOmuf60DYI0AjaiNjtdX&si=N78ZfA_FPK0d7JJv"
+    },
+    {
+      "topic": "Operating System",
+      "tips": "Study process management, memory management, file systems, and scheduling algorithms.",
+      "youtube": "https://youtube.com/playlist?list=PLI74-7rtCb9DskNUdNn2oTM0MAlcuqd4t&si=FWnZQALQeygVsKeH"
+    },
+    {
+      "topic": "Compiler Design",
+      "tips": "Focus on lexical analysis, parsing, syntax trees, and code generation.",
+      "youtube": "https://youtube.com/playlist?list=PLv-1irVkw_hSSQISr3rKK9E5mTVIsjlSs&si=9c-8v2PHodRbiW0h"
+    },
+    {
+      "topic": "Computer Graphics and Image Processing",
+      "tips": "Study graphics pipeline, transformations, rendering, and image enhancement techniques.",
+      "youtube": "https://youtube.com/playlist?list=PLpzddu_MrQ5arBI1m6DIO8qy20KpfKkDb&si=yRijRP4tVN57REcG"
+    },
+    {
+      "topic": "Algorithm Analysis and Design",
+      "tips": "Understand time complexity, greedy algorithms, dynamic programming, and backtracking.",
+      "youtube": "https://youtube.com/playlist?list=PLpqGPi6G3Jf1efKbzUObp2W-jsF3MGmdT&si=XlfUi0-ZfHWYOsFC"
+    },
+    {
+      "topic": "Data Analytics",
+      "tips": "Focus on data preprocessing, visualization, statistical analysis, and using tools like Python and R.",
+      "youtube": "https://youtube.com/playlist?list=PLU6s2dkO69VeDtgI7n--kIDTwGEQ9weN9&si=5KID6Jf4YRSQ6u0s"
+    },
+    {
+      "topic": "Industrial Economics and Foreign Trade",
+      "tips": "Understand micro and macroeconomics, trade policies, WTO, and industrial development.",
+      "youtube": "https://youtube.com/playlist?list=PLIex9xdAUpoiXq2s5atGKtBN0CkBX_nE5&si=iRygS_aKio_V2Ua8"
+    },
+    {
+      "topic": "Comprehensive Course Work",
+      "tips": "Revise key subjects, focus on weak areas, and practice problem-solving across topics.",
+      "youtube": "https://youtube.com/playlist?list=PLl2mIueB4kymkBHxvZLz4NlHaEHFcq9ry&si=aB3yHjPOHNRUcnyv"
+    },
+    {
+      "topic": "Data and Computer Communication",
+      "tips": "Study network models, protocols, transmission methods, and error detection techniques.",
+      "youtube": "https://youtube.com/playlist?list=PLncCQdP2E_jc9kEYeEzmFdtk-TZ9frP7d&si=92LHIfI3wsRTyi5E"
+    }
+  ]

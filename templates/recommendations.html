@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Study Recommendations</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            padding: 30px;
+            margin: 0;
+        }
+
+        h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    font-family: 'Comic Sans MS', 'Segoe UI', sans-serif;
+
+    /* Contrast outline with neon-like vibes */
+    text-shadow:
+        -1px -1px 0 #ff1493,   /* top-left dark pink */
+         1px -1px 0 #ff69b4,   /* top-right light pink */
+        -1px  1px 0 #ff1493,   /* bottom-left */
+         1px  1px 0 #ff69b4,   /* bottom-right */
+         0 0 10px #ff99cc,     /* soft pink glow */
+         0 0 20px #ff69b4;     /* deeper glow */
+
+    animation: bubblePop 2s ease-in-out infinite;
+}
+
+@keyframes bubblePop {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+        .card {
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h3 {
+            margin: 0;
+            color: #ff4081;
+            font-size: 24px;
+        }
+
+        .card p {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .card a:hover {
+            background: linear-gradient(to right, #e7537b, #e7669c);
+        }
+
+        .no-data {
+            text-align: center;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 Study Recommendations for {{ student_name }}</h1>
+
+    {% if error %}
+        <div class="no-data"><p style="color: #fff;">{{ error }}</p></div>
+    {% elif recommendations %}
+        {% for item in recommendations %}
+            <div class="card">
+                <h3>{{ item.topic }}</h3>
+                <p>{{ item.tips }}</p>
+                <a href="{{ item.youtube }}" target="_blank">▶️ Watch Video</a>
+            </div>
+        {% endfor %}
+    {% else %}
+        <div class="no-data">
+            <p>No recommendations available right now 😔</p>
+        </div>
+    {% endif %}
+</body>
+</html>
