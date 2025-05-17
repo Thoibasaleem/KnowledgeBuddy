@@ -61,7 +61,8 @@ knowledgebuddy/
 ## ✨ Author
 
 👩‍💻 **Thoiba Saleem**  
-📫 [LinkedIn](www.linkedin.com/in/thoiba-saleem) | 📧 thoibasaleem389@gmail.com
+📫 [LinkedIn](https://www.linkedin.com/in/thoiba-saleem)
+| 📧 thoibasaleem389@gmail.com
 
 ---
 
