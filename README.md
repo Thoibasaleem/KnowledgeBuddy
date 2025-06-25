@@ -1,17 +1,17 @@
-# 🧠 KnowledgeBuddy – Your AI-Powered Study Partner
+#  KnowledgeBuddy – Your AI-Powered Study Partner
 
-🚀 **KnowledgeBuddy** is a full-stack AI-based web platform designed to boost collaborative learning among students by pairing them with ideal study partners based on academic profile, preferences, and subjects. Built with ❤️ as part of my mini project.
+ **KnowledgeBuddy** is a full-stack AI-based web platform designed to boost collaborative learning among students by pairing them with ideal study partners based on academic profile, preferences, and subjects. Built with ❤️ as part of my mini project.
 
 ---
 
-## 🌟 Features
+##  Features
 
-- 👯‍♂️ AI-Based Study Partner Matching (Random Forest Model)
-- 💬 Real-time Chat System using Django Channels + WebSockets
-- 📂 File Sharing, Voice Notes & Smart Study Tips
-- 🧠 Personalized Study Recommendations (TF-IDF + Cosine Similarity)
-- 📊 Admin Dashboard + Student Profile Management
-- 🔐 Secure Authentication with PostgreSQL
+-  AI-Based Study Partner Matching (Random Forest Model)
+-  Real-time Chat System using Django Channels + WebSockets
+-  File Sharing, Voice Notes & Smart Study Tips
+-  Personalized Study Recommendations (TF-IDF + Cosine Similarity)
+-  Admin Dashboard + Student Profile Management
+-  Secure Authentication with PostgreSQL
 
 ---
 
@@ -25,7 +25,7 @@
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 # KnowledgeBuddy
 knowledgebuddy/
