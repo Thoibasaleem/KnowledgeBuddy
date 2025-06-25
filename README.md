@@ -1,27 +1,41 @@
-#  KnowledgeBuddy – Your AI-Powered Study Partner
+#  KnowledgeBuddy – Your AI-Powered Study Partner 
 
- **KnowledgeBuddy** is a full-stack AI-based web platform designed to boost collaborative learning among students by pairing them with ideal study partners based on academic profile, preferences, and subjects. Built with ❤️ as part of my mini project.
+**KnowledgeBuddy** is a full-stack AI-based web platform designed to promote collaborative learning by intelligently pairing students with ideal study partners based on academic performance, backlogs, learning preferences, and subject strengths.  
+It also provides real-time chat, voice messaging, file sharing, and smart study recommendations — creating a complete AI study companion.
+
+ Built with ❤️ as part of my 3rd-year mini project using Python, Django, and  ML logic
 
 ---
 
 ##  Features
 
--  AI-Based Study Partner Matching (Random Forest Model)
--  Real-time Chat System using Django Channels + WebSockets
--  File Sharing, Voice Notes & Smart Study Tips
--  Personalized Study Recommendations (TF-IDF + Cosine Similarity)
--  Admin Dashboard + Student Profile Management
--  Secure Authentication with PostgreSQL
+-  **AI-Based Matching** – Uses a trained **Random Forest classifier** on student data (grades, backlogs, preferences) to predict ideal study partners  
+-  **Personalized Study Tips** – Uses **TF-IDF + cosine similarity** to recommend YouTube links, topics, and focus areas  
+-  **Real-time Chat System** – Built using **Django Channels + WebSockets** for live messaging  
+-  **Voice Notes & File Sharing** – Chat like WhatsApp with media features  
+-  **Student Profile Management** – Custom profiles with study time, learning style, weakest/easiest subjects, etc.  
+-  **Secure Login System** – Built with Django auth + PostgreSQL  
+-  **Admin Dashboard** – Track student data, matches, and usage
 
 ---
 
 ## 🔧 Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Python (Django, Django Channels)
-- **Database:** PostgreSQL
-- **ML Models:** Scikit-learn (Random Forest, TF-IDF)
-- **Tools:** Git, GitHub, VS Code
+| Layer       | Tools |
+|-------------|-------|
+| **Frontend** | HTML, CSS, JavaScript |
+| **Backend**  | Python, Django, Django Channels |
+| **Database** | PostgreSQL |
+| **ML Models** | Scikit-learn (Random Forest, TF-IDF) |
+| **APIs/Tools** | WebSockets, Git, GitHub, VS Code |
+
+---
+
+##  AI/ML Breakdown
+
+-  **Matching Algorithm**: Supervised ML model using **Random Forest** classifier trained on custom student dataset  
+-  **Study Tips**: NLP-based recommendations using **TF-IDF vectorization** + **cosine similarity**  
+-  **Preprocessing**: Cleaned and normalized student data from Excel for model training
 
 ---
 
@@ -58,7 +72,7 @@ knowledgebuddy/
 
 ---
 
-## ✨ Author
+##  Author
 
 👩‍💻 **Thoiba Saleem**  
 📫 [LinkedIn](https://www.linkedin.com/in/thoiba-saleem)
